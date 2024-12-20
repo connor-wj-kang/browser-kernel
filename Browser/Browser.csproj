@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net9.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Jint" Version="4.1.0"/>
+        <PackageReference Include="Microsoft.Diagnostics.Runtime" Version="4.0.0-beta.24360.3"/>
+        <PackageReference Include="SkiaSharp" Version="3.118.0-preview.1.2"/>
+        <PackageReference Include="SkiaSharp.Views.WPF" Version="3.118.0-preview.1.2"/>
+    </ItemGroup>
+
+</Project>
